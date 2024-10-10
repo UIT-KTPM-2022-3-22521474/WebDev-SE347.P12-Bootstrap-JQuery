@@ -1,0 +1,82 @@
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Welcome Section Styling */
+.welcome-section {
+    background-color: #007bff !important; /* Full blue background */
+    color: white; /* White text for contrast */
+    padding: 50px 0;
+    text-align: center; /* Center text */
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    color: white; /* Ensure the heading text is white */
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: white; /* White text for the description */
+    margin-bottom: 20px;
+}
+
+/* Learn More Button Styling */
+.btn-learn-more {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+/* Card Styling */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    z-index: 10;
+}
+
+/* Expanded Card Styles */
+.expanded-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Disable hover effect when card is expanded */
+.no-hover {
+    pointer-events: none; /* Disables hover and click events */
+}
+
+/* Overlay styling */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    color: #6c757d;
+    font-size: 14px;
+    text-align: center;
+}
